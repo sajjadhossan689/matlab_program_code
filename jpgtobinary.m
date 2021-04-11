@@ -1,0 +1,5 @@
+im = imread('colors.jpg')
+imshow(im)
+pause(1)
+convert = im2bw(im,0.6)
+imshow(convert)
